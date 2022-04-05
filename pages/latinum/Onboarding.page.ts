@@ -4,10 +4,8 @@ import { AbstractPage } from './AbstractPage'
 export class OnboardingPage extends AbstractPage {
 
   //Locators
-  // readonly page: Page
 
   constructor(page: Page) {
-    // this.page = page
     super(page)
   }
 

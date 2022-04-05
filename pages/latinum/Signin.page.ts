@@ -4,7 +4,6 @@ import { AbstractPage } from './AbstractPage'
 export class SigninPage extends AbstractPage {
 
   //Locators
-  // readonly page: Page
   readonly emailAddressInput: Locator
   readonly passwordInput: Locator
   readonly forgotPasswordLink: Locator
@@ -12,7 +11,6 @@ export class SigninPage extends AbstractPage {
   readonly signupLink: Locator
 
   constructor(page: Page) {
-    // this.page = page
     super(page)
     this.emailAddressInput = page.locator("input[name='email']")
     this.passwordInput = page.locator("input[name='password']")
