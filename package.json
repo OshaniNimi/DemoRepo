@@ -1,0 +1,16 @@
+{
+  "name": "latinumuiautomation",
+  "version": "1.0.0",
+  "description": "Latinum UI Automation with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test:latinum": "playwright test --config=latinum.config.ts --project=Chromium"
+  },
+  "author": "Oshani Perera",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.20.1",
+    "prettier": "^2.6.1",
+    "properties-reader": "^2.2.0"
+  }
+}
